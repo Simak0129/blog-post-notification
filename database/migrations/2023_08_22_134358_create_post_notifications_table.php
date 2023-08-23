@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->text('message');
             $table->integer('post_id');
-            $table->timestamps();
         });
     }
 
